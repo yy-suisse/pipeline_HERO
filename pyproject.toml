@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipeline-hero"
+version = "0.1.0"
+description = "Minimal pipeline framework scaffold for HERO project"
+authors = [
+  {name = "Your Name"}
+]
+dependencies = ["click"]
