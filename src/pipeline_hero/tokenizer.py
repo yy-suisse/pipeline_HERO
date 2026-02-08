@@ -3,7 +3,7 @@ from typing import List
 import json
 
 
-class MedicalCodeTokenizer:
+class CodeWiseTokenizer:
     """Tokenizer for medical codes using WordLevel vocabulary mapping"""
     
     def __init__(self, path_tokenizer:str = None, vocab: List[str] = None, special_tokens: List[str] = None):
