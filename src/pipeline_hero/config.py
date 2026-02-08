@@ -30,3 +30,6 @@ class Columns:
 
 class Tokenizer_vocabs:
     data_vocab = "D:/DATA_EHRSHOT/extracted_data/data_vocab.parquet"
+    sppecial_tokens_mlm = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
+    mlm_tokenier_path = "D:/DATA_EHRSHOT/tokenizers/mlm_tokenizer.json"
+    tokenizer_mlm_path = "D:/DATA_EHRSHOT/tokenizers/mlm_tokenizer.json"
